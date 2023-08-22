@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-</head>
-<body>
-<div id="app">El Psy Congroo</div>
-<script>
-    window.$docsify = {
-        name: 'xxfeng 个人站点',
-        nameLink: '/',
-        repo: 'https://github.com/xiaoxiaofeng777',
-        search: 'auto',
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"
+    />
+  </head>
+  <body>
+    <div id="app">El Psy Congroo</div>
+    <script>
+      window.$docsify = {
+        name: "xxfeng 个人站点",
+        nameLink: "/",
+        repo: "https://github.com/xiaoxiaofeng777",
+        search: "auto",
         loadNavbar: true,
         loadSidebar: true,
-        auto2top: true
-    }
-</script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-</body>
+        subMaxLevel: 2,
+        auto2top: true,
+        coverpage: true,
+        mergeNavbar: true,
+        formatUpdated: "{MM}/{DD} {HH}:{mm}",
+        externalLinkTarget: "_self", // default: '_blank'
+        cornerExternalLinkTarget: "_self", // default: '_blank'
+        // routerMode: 'history',
+        ext: ".md",
+        logo: "/_media/Vue.svg",
+        alias: {
+          "/.*/_sidebar.md": "/_sidebar.md",
+        },
+      };
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
+  </body>
 </html>
