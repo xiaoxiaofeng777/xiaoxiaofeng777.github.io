@@ -2,8 +2,8 @@
 
 <!-- 背景图片 -->
 
-![](_media/Vue.png)
+<!-- ![](_media/Vue.png) -->
 
 <!-- 背景色 -->
 
-![color](#f0f0f0)
+![color](skyblue)
