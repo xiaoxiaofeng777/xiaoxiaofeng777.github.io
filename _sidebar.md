@@ -1,2 +1,2 @@
-- [VUE](vue/index.md "a vue")
-- [REACT](react/index.md)
+- [VUE](docs/vue/README.md "a vue")
+- [REACT](docs/react/README.md)

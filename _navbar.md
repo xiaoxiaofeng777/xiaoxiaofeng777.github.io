@@ -1,7 +1,7 @@
 - VUE
 
-  - [:us:, :uk:](vue/README.md)
+  - [:us:, :uk:](docs/vue/README.md)
 
 - REACT
 
-  - [:cn:](react/README.md)
+  - [:cn:](docs/react/README.md)
